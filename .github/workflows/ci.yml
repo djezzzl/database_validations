@@ -19,7 +19,7 @@ jobs:
             gemfile: rails70
           - ruby: '3.4'
             gemfile: rails80
-          - ruby: 'latest'
+          - ruby: '4.0'
             gemfile: railsmaster
 
     services:
