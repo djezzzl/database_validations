@@ -13,13 +13,13 @@ jobs:
     strategy:
       matrix:
         include:
-          - ruby: '2.4'
-            gemfile: rails42
-          - ruby: '2.5'
-            gemfile: rails52
           - ruby: '2.7'
             gemfile: rails61
-          - ruby: '3.0'
+          - ruby: '2.7'
+            gemfile: rails70
+          - ruby: '3.1'
+            gemfile: rails80
+          - ruby: '3.3'
             gemfile: railsmaster
 
     services:

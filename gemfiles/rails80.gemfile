@@ -1,0 +1,2 @@
+gem 'activerecord', '>= 8.0'
+
