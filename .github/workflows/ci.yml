@@ -69,6 +69,9 @@ jobs:
           ruby-version: ${{ matrix.ruby }}
           bundler-cache: true
 
+      - name: Use << parameters.gemfile >> as the Gemfile
+        run: bundle config --global gemfile ${{ matrix.gemfile }}
+
       - name: Install dependencies
         run: bundle install
 
