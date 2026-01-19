@@ -69,7 +69,7 @@ jobs:
           ruby-version: ${{ matrix.ruby }}
           bundler-cache: true
 
-      - name: Use << parameters.gemfile >> as the Gemfile
+      - name: Use ${{ matrix.gemfile }} as the Gemfile
         run: bundle config --global gemfile ${{ matrix.gemfile }}
 
       - name: Run tests
