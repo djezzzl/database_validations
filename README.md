@@ -1,6 +1,6 @@
 # DatabaseValidations
 
-[![CircleCI](https://circleci.com/gh/toptal/database_validations/tree/master.svg?style=svg)](https://circleci.com/gh/toptal/database_validations/tree/master)
+[![CI](https://github.com/toptal/database_validations/actions/workflows/ci.yml/badge.svg)](https://github.com/toptal/database_validations/actions/workflows/ci.yml)
 [![Gem Version](https://badge.fury.io/rb/database_validations.svg)](https://badge.fury.io/rb/database_validations)
 [![Maintainability](https://api.codeclimate.com/v1/badges/a7df40a29c63f7ba518b/maintainability)](https://codeclimate.com/github/toptal/database_validations/maintainability)
 
